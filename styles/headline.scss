@@ -2,11 +2,11 @@
   width: 100%;
 
   @include for-large-up {
+    display: flex;
     position: relative;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
-    display: flex;
     padding-bottom: 126px;
   }
 
@@ -30,11 +30,11 @@
     @include for-large-up {
       width: 754px;
       height: 165px;
+      z-index: 1;
       font-weight: bold;
       font-size: 80px;
       line-height: 78px;
       letter-spacing: -0.5px;
-      z-index: 1;
       margin: 0;
     }
   }
@@ -46,13 +46,13 @@
     line-height: 34px;
 
     @include for-large-up {
-      margin-top: 34px;
-      margin-bottom: 0;
       height: 102px;
       width: 456px;
+      z-index: 1;
+      margin-top: 34px;
+      margin-bottom: 0;
       font-size: 24px;
       line-height: 34px;
-      z-index: 1;
     }
   }
 
@@ -60,8 +60,8 @@
     margin-top: 30px;
 
     @include for-large-up {
-      margin-top: 58px;
       display: flex;
+      margin-top: 58px;
     }
   }
 

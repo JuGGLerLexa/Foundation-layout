@@ -36,9 +36,9 @@
 
     &__description {
       display: block;
+      text-align: center;
       font-size: 18px;
       line-height: 25px;
-      text-align: center;
       color: rgba(43, 41, 45, 0.6);
     }
   }
@@ -53,9 +53,9 @@
 }
 
 .footer-navigation {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
 
   @include for-large-up {
     display: flex;
@@ -67,14 +67,14 @@
 }
 
 .downloads {
-  margin-top: 25px 15px 0 15px;
   display: flex;
   justify-content: center;
+  margin-top: 25px 15px 0 15px;
 
   @include for-large-up {
+    justify-content: left;
     margin: 0;
     margin-top: 25px;
-    justify-content: left;
   }
 
   &__item {
@@ -83,15 +83,15 @@
 }
 
 .additional-navigation {
-  margin-left: 15px;
-  margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
 
   @include for-large-up {
+    flex-direction: row;
     margin-top: 60px;
     margin-left: 126px;
-    flex-direction: row;
   }
 
   &__column {
@@ -127,16 +127,16 @@
 }
 
 .footer-links {
-  margin-left: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 
   @include for-large-up {
     flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 50px;
     margin: 0 auto;
-    align-items: center;
   }
 }
 
@@ -194,9 +194,9 @@
   }
 
   &__description {
+    text-align: center;
     font-size: 18px;
     line-height: 25px;
-    text-align: center;
     color: $text-color-light-grey;
   }
 
@@ -209,9 +209,9 @@
 .logo {
   &__description {
     display: block;
+    text-align: center;
     font-size: 18px;
     line-height: 25px;
-    text-align: center;
     color: $text-color-light-grey;
   }
 }
