@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Foundation Layout Project
 
 ### [Site link](https://gromcode.github.io/layout-sample-project/)
 
