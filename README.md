@@ -10,4 +10,4 @@ Flexbox
 Sass (Scss)
 BEM methodology
 Author
-Some Name
+Oleksii Klipach
