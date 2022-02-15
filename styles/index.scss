@@ -1,6 +1,4 @@
 @import 'variables.scss';
-@import 'about.scss';
-@import 'customers.scss';
 @import 'breakpoints.scss';
 @import 'features.scss';
 @import 'footer.scss';
@@ -10,6 +8,9 @@
 @import 'tips.scss';
 @import 'orders.scss';
 @import 'audience.scss';
+@import 'about.scss';
+@import 'customers.scss';
+
 
 * {
   box-sizing: border-box;
